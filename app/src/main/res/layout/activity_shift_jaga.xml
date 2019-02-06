@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShiftJagaActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_idJaga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:layout_margin="15dp"
+                android:hint="ID Jaga" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinnerRuangan"
+                android:backgroundTint="@color/colorAccent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="150dp"
+                android:layout_marginLeft="18dp"
+                android:layout_height="40dp">
+            </Spinner>
+
+            <TextView
+                android:id="@+id/txtnamaRuangan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="11dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="5dp"
+                android:text="Nama Ruangan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinnerPerawat"
+                android:backgroundTint="@color/colorAccent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="150dp"
+                android:layout_marginLeft="18dp"
+                android:layout_height="40dp">
+            </Spinner>
+
+            <TextView
+                android:id="@+id/txtnamaPerawat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="11dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="5dp"
+                android:text="Nama Perawat" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp">
+
+            <Button
+                android:id="@+id/btnDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Jaga"
+                style="@style/Widget.AppCompat.Button.Colored" />
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="date"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/RG"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton android:id="@+id/rb_pagi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pagi" />
+
+            <RadioButton android:id="@+id/rb_siang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Siang" />
+
+            <RadioButton android:id="@+id/rb_malam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Malam" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_addShiftJaga"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Add Shift Jaga"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:layout_alignParentBottom="true"/>-->
+
+</RelativeLayout>

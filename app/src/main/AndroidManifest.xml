@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rdsaleh.adpl_rs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ruangan"
+        android:label="ADPL-RS"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Dashboard Admin" />
+        <activity
+            android:name=".addPasienActivity"
+            android:label="Add Pasien" />
+        <activity
+            android:name=".addSpesialisActivity"
+            android:label="Add Spesialis" />
+        <activity
+            android:name=".addDokterActivity"
+            android:label="Add Dokter" />
+        <activity
+            android:name=".addPerawatActivity"
+            android:label="Add Perawat" />
+        <activity
+            android:name=".addKelasActivity"
+            android:label="Add Kelas" />
+        <activity
+            android:name=".addRuanganActivity"
+            android:label="Add Ruangan" />
+        <activity
+            android:name=".addRmActivity"
+            android:label="Add Rekam Medis" />
+        <activity
+            android:name=".addPeriksaActivity"
+            android:label="Add Periksa" />
+        <activity
+            android:name=".ShiftJagaActivity"
+            android:label="Add Shift Jaga" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login" />
+        <activity
+            android:name=".addRawatInapActivity"
+            android:label="Add Rawat Inap" />
+        <activity
+            android:name=".PendaftaranActivity"
+            android:label="Add Pendaftaran" />
+        <activity
+            android:name=".PembayaranActivity"
+            android:label="Add Pembayaran" />
+        <activity
+            android:name=".DataSpesialisActivity"
+            android:label="Data Spesialis" />
+        <activity
+            android:name=".DataKelasActivity"
+            android:label="Data Kelas" />
+        <activity
+            android:name=".DataRuanganActivity"
+            android:label="Data Ruangan" />
+        <activity
+            android:name=".DataPasienActivity"
+            android:label="Data Pasien" />
+        <activity
+            android:name=".DataPerawatActivity"
+            android:label="Data Perawat" />
+        <activity
+            android:name=".DataShiftjagaActivity"
+            android:label="Data Shift Jaga" />
+        <activity
+            android:name=".DataDokterActivity"
+            android:label="Data Dokter" />
+        <activity
+            android:name=".DataRawatActivity"
+            android:label="Data Rawat Inap" />
+        <activity
+            android:name=".DataRmActivity"
+            android:label="Data Rekam Medis" />
+        <activity
+            android:name=".DataPendaftaranActivity"
+            android:label="Data Pendaftaran" />
+        <activity
+            android:name=".DataPembayaranActivity"
+            android:label="Data Pembayaran" />
+        <activity
+            android:name=".DataPeriksaActivity"
+            android:label="Data Periksa" />
+        <activity
+            android:name=".MainPasienActivity"
+            android:label="Dashboard Pasien"
+            android:theme="@style/AppThemePasien" />
+        <activity
+            android:name=".MainDokterActivity"
+            android:label="Dashboard Dokter"
+            android:theme="@style/AppThemeDokter" />
+        <activity
+            android:name=".MainPerawatActivity"
+            android:label="Dashboard Perawat"
+            android:theme="@style/AppThemePerawat" />
+        <activity
+            android:name=".IndexActivity"
+            android:label="RS-AFSARA"
+            android:theme="@style/AppThemeIndex">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JadwalJagaActivity"
+            android:label="Jadwal Jaga"
+            android:theme="@style/AppThemePerawat" />
+        <activity
+            android:name=".RiwayatPeriksaActivity"
+            android:label="Riwayat Periksa"
+            android:theme="@style/AppThemePasien" />
+        <activity
+            android:name=".RiwayatPendaftaranActivity"
+            android:label="Riwayat Pendaftaran"
+            android:theme="@style/AppThemePasien" />
+        <activity
+            android:name=".RiwayatPembayaranActivity"
+            android:label="Riwayat Pembayaran"
+            android:theme="@style/AppThemePasien" />
+        <activity android:name=".dokterPeriksaPasienActivity" />
+        <activity
+            android:name=".DataPeriksaDokterActivity"
+            android:label="Data Periksa Pasien"
+            android:theme="@style/AppThemeDokter"/>
+    </application>
+
+</manifest>

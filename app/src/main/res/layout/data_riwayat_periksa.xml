@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID Periksa        : "
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/tv_idPeriksa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PK01"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID Rekam Medis   : "
+                android:textSize="15dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/tv_idRm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PRM01"
+                android:textSize="15dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID Dokter                : "
+                android:textSize="15dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/tv_idDokter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D01"
+                android:textSize="15dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hasil Diagnosa      : "
+                android:textSize="15dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/tv_diagnosa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="flu, batuk , pilek sakit kelapa"
+                android:textSize="15dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Periksa    : "
+                android:textSize="15dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/tv_tglPeriksa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2019-09-09"
+                android:textSize="15dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status Rawat         : "
+                android:textSize="15dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/tv_sttsRawat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rawat Jalan"
+                android:textSize="15dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status Periksa       : "
+                android:textSize="15dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/tv_sttsPeriksa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sudah Diperiksa"
+                android:textSize="15dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
